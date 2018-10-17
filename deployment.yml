@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: jamesquigley/exampleapp:v1.0.0
+          image: pgonzo/example-node-app
           ports:
             - containerPort: 8080
